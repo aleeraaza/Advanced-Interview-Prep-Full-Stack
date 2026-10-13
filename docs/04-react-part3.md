@@ -347,7 +347,7 @@ sequenceDiagram
     participant API
     Q->>API: GET /feed (cursor = null)
     API-->>Q: { items, nextCursor: "c2" }
-    U->>S: scrolls; sentinel enters viewport (rootMargin 300px)
+    U->>S: scrolls, sentinel enters viewport (rootMargin 300px)
     S->>Q: hasNextPage && !isFetchingNextPage → fetchNextPage()
     Q->>API: GET /feed?cursor=c2
     API-->>Q: { items, nextCursor: null }

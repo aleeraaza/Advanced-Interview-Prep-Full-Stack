@@ -693,7 +693,7 @@ flowchart TD
     D -->|Yes: distribute| S2["number extends unknown ? number[] : never"]
     S1 --> U["string[] | number[]"]
     S2 --> U
-    D -->|No, e.g. [T] extends [unknown]| W["(string | number)[]"]
+    D -->|"No, e.g. [T] extends [unknown]"| W["(string | number)[]"]
 ```
 
 **A realistic use: typed object paths** (used by form libraries like React Hook Form for `register("address.city")`):

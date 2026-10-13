@@ -66,7 +66,7 @@ flowchart LR
 | 02 | [02-javascript.md](./02-javascript.md) (hub) → [Part 1](./02-javascript-part1.md) · [Part 2](./02-javascript-part2.md) · [Part 3](./02-javascript-part3.md) | Execution context, closures, `this`, prototypes, event loop, polyfills, browser basics |
 | 03 | [03-typescript.md](./03-typescript.md) (hub) → [Part 1](./03-typescript-part1.md) · [Part 2](./03-typescript-part2.md) · [Part 3](./03-typescript-part3.md) | Type system, generics, conditional/mapped types, narrowing, tsconfig, Zod |
 | 04 | [04-react.md](./04-react.md) (hub) → [Part 1](./04-react-part1.md) · [Part 2](./04-react-part2.md) · [Part 3](./04-react-part3.md) · [Part 4](./04-react-part4.md) | Reconciliation, Fiber, hooks, state management, performance, React 19, machine coding |
-| 05 | [05-nextjs.md](./05-nextjs.md) | App Router, RSC, rendering strategies, caching layers, Server Actions, deployment |
+| 05 | [05-nextjs.md](./05-nextjs.md) (hub) → [Part 1](./05-nextjs-part1.md) · [Part 2](./05-nextjs-part2.md) · [Part 3](./05-nextjs-part3.md) · [Part 4](./05-nextjs-part4.md) | App Router, RSC, rendering strategies and PPR, both caching models, Server Actions, Proxy, auth, SEO, Web Vitals, deployment |
 | 06 | [06-nodejs.md](./06-nodejs.md) | Event loop phases, libuv, streams, workers, auth, queues, observability, security |
 | 07 | [07-databases-and-apis.md](./07-databases-and-apis.md) | SQL, PostgreSQL, MongoDB, Redis, ORMs, REST/GraphQL/tRPC/gRPC, API design |
 | 08 | [08-engineering-practices.md](./08-engineering-practices.md) | SOLID, patterns, testing, Git, CI/CD, Docker, monorepos, security, monitoring |
@@ -148,7 +148,11 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 2 — State, performance, React 19, patterns, testing](./04-react-part2.md) | ✅ | ⬜ | | |
 | ↳ | [Part 3 — Machine coding round](./04-react-part3.md) | ✅ | ⬜ | | |
 | ↳ | [Part 4 — Resources, practice, interview Qs, revision](./04-react-part4.md) | ✅ | ⬜ | | |
-| 05 | [Next.js](./05-nextjs.md) | ⬜ | ⬜ | | |
+| 05 | [Next.js](./05-nextjs.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Routing, Server Components, rendering & data](./05-nextjs-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Caching, Server Actions, Route Handlers, Proxy, auth](./05-nextjs-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Optimization, SEO, Web Vitals, errors, deployment](./05-nextjs-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — Resources, practice, interview Qs, revision](./05-nextjs-part4.md) | ✅ | ⬜ | | |
 | 06 | [Node.js](./06-nodejs.md) | ⬜ | ⬜ | | |
 | 07 | [Databases & APIs](./07-databases-and-apis.md) | ⬜ | ⬜ | | |
 | 08 | [Engineering Practices](./08-engineering-practices.md) | ⬜ | ⬜ | | |
@@ -185,7 +189,7 @@ Answer each out loud in under 2 minutes. If you can't, that topic's file goes to
 | Walk me through what happens when `await` is hit inside an async function. | Event loop, microtasks | [02](./02-javascript.md) |
 | Write a type that extracts the resolved type of a Promise-returning function. | Conditional types, `infer` | [03](./03-typescript.md) |
 | Why does React need a `key` on list items, and what breaks with index keys? | Reconciliation | [04](./04-react.md) |
-| Name the caching layers in the Next.js App Router and how to opt out of each. | Next.js caching | [05](./05-nextjs.md) |
+| What's cached on this Next.js page, for how long, and how is it invalidated — with and without Cache Components? | Next.js caching | [05](./05-nextjs.md) |
 | Why can a CPU-heavy JSON parse take down a Node.js API, and how do you fix it? | Event loop, workers | [06](./06-nodejs.md) |
 | When would a composite index on `(a, b)` *not* be used for a query? | Index internals | [07](./07-databases-and-apis.md) |
 | How do you make a payment endpoint safe to retry? | Idempotency | [07](./07-databases-and-apis.md) |
