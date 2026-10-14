@@ -648,5 +648,5 @@ flowchart TD
 ## Next Steps
 
 - Mark your starting confidence for each section in the [Progress Tracker](./00-README.md#progress-tracker).
-- Pick a schedule from [16-study-plan.md](./16-study-plan.md) (or use the triage table above until it's written).
+- Pick a schedule from [16-study-plan.md](./16-study-plan.md).
 - ➡️ Continue to [02-javascript.md](./02-javascript.md)

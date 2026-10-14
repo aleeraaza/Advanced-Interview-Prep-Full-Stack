@@ -76,9 +76,9 @@ flowchart LR
 | 12 | [12-cloudflare.md](./12-cloudflare.md) (hub) → [Part 1](./12-cloudflare-part1.md) · [Part 2](./12-cloudflare-part2.md) · [Part 3](./12-cloudflare-part3.md) | DNS, orange cloud, TLS modes, origin lock, WAF, Workers, R2, KV/D1/DO, Tunnel |
 | 13 | [13-coding-round-practice.md](./13-coding-round-practice.md) (hub) → [Part 1](./13-coding-round-practice-part1.md) · [Part 2](./13-coding-round-practice-part2.md) · [Part 3](./13-coding-round-practice-part3.md) · [Part 4](./13-coding-round-practice-part4.md) | DSA patterns, JS Big-O, NeetCode 150 templates, machine-coding strategy |
 | 14 | [14-js-logical-interview-questions.md](./14-js-logical-interview-questions.md) (hub) → [Part 1](./14-js-logical-interview-questions-part1.md) · [Part 2](./14-js-logical-interview-questions-part2.md) · [Part 3](./14-js-logical-interview-questions-part3.md) | 108 output-prediction puzzles + debounce/`Promise.all`/LRU/emitter implementations |
-| 15 | [15-other-interview-questions.md](./15-other-interview-questions.md) | Behavioral/STAR, project deep-dive, incidents, negotiation, resume |
-| 16 | [16-study-plan.md](./16-study-plan.md) | 4 / 8 / 12-week plans with daily tasks and mock checkpoints |
-| 17 | [17-cheatsheets.md](./17-cheatsheets.md) | Compact revision sheets for everything |
+| 15 | [15-other-interview-questions.md](./15-other-interview-questions.md) (hub) → [Part 1](./15-other-interview-questions-part1.md) · [Part 2](./15-other-interview-questions-part2.md) · [Part 3](./15-other-interview-questions-part3.md) | 90s pitch, STAR bank, deep-dive, incidents, resume, negotiation |
+| 16 | [16-study-plan.md](./16-study-plan.md) (hub) → [Part 1](./16-study-plan-part1.md) · [Part 2](./16-study-plan-part2.md) · [Part 3](./16-study-plan-part3.md) | 4 / 8 / 12-week calendars, daily template, mocks, <2-week emergency |
+| 17 | [17-cheatsheets.md](./17-cheatsheets.md) (hub) → [Part 1](./17-cheatsheets-part1.md) · [Part 2](./17-cheatsheets-part2.md) · [Part 3](./17-cheatsheets-part3.md) | Last-48-hour recitation: JS/TS/React/Next, Node/data/design, AWS/CF/DSA/STAR |
 
 > Files that grow too long are split into parts (e.g. `02-javascript-part1.md`, `02-javascript-part2.md`). When that happens, the parts are listed under the parent entry in the [Progress Tracker](#progress-tracker).
 
@@ -198,9 +198,18 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 1 — Closures, this, prototypes](./14-js-logical-interview-questions-part1.md) | ✅ | ⬜ | | |
 | ↳ | [Part 2 — Event loop, coercion, oddballs](./14-js-logical-interview-questions-part2.md) | ✅ | ⬜ | | |
 | ↳ | [Part 3 — Implementations, interview](./14-js-logical-interview-questions-part3.md) | ✅ | ⬜ | | |
-| 15 | [Other Interview Questions](./15-other-interview-questions.md) | ⬜ | ⬜ | | |
-| 16 | [Study Plan](./16-study-plan.md) | ⬜ | ⬜ | | |
-| 17 | [Cheatsheets](./17-cheatsheets.md) | ⬜ | ⬜ | | |
+| 15 | [Other Interview Questions](./15-other-interview-questions.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Pitch and STAR bank](./15-other-interview-questions-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Deep-dive, incidents, product, questions](./15-other-interview-questions-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Resume, negotiation, leadership, interview](./15-other-interview-questions-part3.md) | ✅ | ⬜ | | |
+| 16 | [Study Plan](./16-study-plan.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Choose + 4-week](./16-study-plan-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — 8-week](./16-study-plan-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — 12-week, mocks, interview](./16-study-plan-part3.md) | ✅ | ⬜ | | |
+| 17 | [Cheatsheets](./17-cheatsheets.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — JS, TS, React, Next](./17-cheatsheets-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Node, data, practices, design](./17-cheatsheets-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Cloud, DSA, behavioral, 48 h](./17-cheatsheets-part3.md) | ✅ | ⬜ | | |
 
 **Confidence scale:**
 
