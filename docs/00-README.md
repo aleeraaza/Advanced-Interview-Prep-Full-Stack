@@ -70,9 +70,9 @@ flowchart LR
 | 06 | [06-nodejs.md](./06-nodejs.md) (hub) → [Part 1](./06-nodejs-part1.md) · [Part 2](./06-nodejs-part2.md) · [Part 3](./06-nodejs-part3.md) · [Part 4](./06-nodejs-part4.md) | Event loop phases, libuv, streams, workers, Express/Fastify/NestJS, auth, rate limiting, uploads, real-time, Redis caching, queues, observability, shutdown, security, testing, profiling |
 | 07 | [07-databases-and-apis.md](./07-databases-and-apis.md) (hub) → [Part 1](./07-databases-and-apis-part1.md) · [Part 2](./07-databases-and-apis-part2.md) · [Part 3](./07-databases-and-apis-part3.md) · [Part 4](./07-databases-and-apis-part4.md) · [Part 5](./07-databases-and-apis-part5.md) | SQL, PostgreSQL (indexes, isolation, MVCC), MongoDB, Redis, ORMs, REST/HTTP, pagination, idempotency, GraphQL, tRPC, gRPC, webhooks |
 | 08 | [08-engineering-practices.md](./08-engineering-practices.md) (hub) → [Part 1](./08-engineering-practices-part1.md) · [Part 2](./08-engineering-practices-part2.md) · [Part 3](./08-engineering-practices-part3.md) · [Part 4](./08-engineering-practices-part4.md) · [Part 5](./08-engineering-practices-part5.md) | SOLID, patterns, testing, Git, CI/CD, Docker, monorepos, OWASP 2025, SLOs, a11y as a gate |
-| 09 | [09-system-design.md](./09-system-design.md) | Framework, scaling building blocks, classic design problems |
-| 10 | [10-deployment-aws-ec2.md](./10-deployment-aws-ec2.md) | EC2, VPC, IAM, ALB, Auto Scaling, Nginx + PM2 + SSL walkthrough |
-| 11 | [11-deployment-aws-s3.md](./11-deployment-aws-s3.md) | Buckets, policies, pre-signed URLs, multipart, CloudFront, SDK v3 code |
+| 09 | [09-system-design.md](./09-system-design.md) (hub) → [Part 1](./09-system-design-part1.md) · [Part 2](./09-system-design-part2.md) · [Part 3](./09-system-design-part3.md) · [Part 4](./09-system-design-part4.md) · [Part 5](./09-system-design-part5.md) | Framework, estimates, cache/CDN/queues, classic designs, reliability |
+| 10 | [10-deployment-aws-ec2.md](./10-deployment-aws-ec2.md) (hub) → [Part 1](./10-deployment-aws-ec2-part1.md) · [Part 2](./10-deployment-aws-ec2-part2.md) · [Part 3](./10-deployment-aws-ec2-part3.md) · [Part 4](./10-deployment-aws-ec2-part4.md) | VPC, IAM, Nginx+PM2+Certbot lab, ALB, ASG, OIDC, SSM |
+| 11 | [11-deployment-aws-s3.md](./11-deployment-aws-s3.md) (hub) → [Part 1](./11-deployment-aws-s3-part1.md) · [Part 2](./11-deployment-aws-s3-part2.md) · [Part 3](./11-deployment-aws-s3-part3.md) | Buckets, policies, pre-signed URLs, multipart, CloudFront OAC, SDK v3 code |
 | 12 | [12-cloudflare.md](./12-cloudflare.md) | DNS, CDN, SSL modes, WAF, Workers, R2, KV, D1, Durable Objects, Tunnels |
 | 13 | [13-coding-round-practice.md](./13-coding-round-practice.md) | DSA patterns, templates, curated problems, machine-coding strategy |
 | 14 | [14-js-logical-interview-questions.md](./14-js-logical-interview-questions.md) | 100+ output-prediction puzzles + implementation questions |
@@ -170,9 +170,21 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 3 — Git, CI/CD, Docker, monorepos](./08-engineering-practices-part3.md) | ✅ | ⬜ | | |
 | ↳ | [Part 4 — Security, observability, accessibility](./08-engineering-practices-part4.md) | ✅ | ⬜ | | |
 | ↳ | [Part 5 — Resources, practice, interview Qs, revision](./08-engineering-practices-part5.md) | ✅ | ⬜ | | |
-| 09 | [System Design](./09-system-design.md) | ⬜ | ⬜ | | |
-| 10 | [AWS EC2](./10-deployment-aws-ec2.md) | ⬜ | ⬜ | | |
-| 11 | [AWS S3](./11-deployment-aws-s3.md) | ⬜ | ⬜ | | |
+| 09 | [System Design](./09-system-design.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Framework, estimates, scale, load balancing](./09-system-design-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Cache, CDN, DB scale, queues, consistency](./09-system-design-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Rate limiter, URL shortener, chat, notifications](./09-system-design-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — Feed, files, typeahead, frontend, reliability](./09-system-design-part4.md) | ✅ | ⬜ | | |
+| ↳ | [Part 5 — Resources, practice, interview Qs, revision](./09-system-design-part5.md) | ✅ | ⬜ | | |
+| 10 | [AWS EC2](./10-deployment-aws-ec2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — VPC, EC2, IAM, security groups](./10-deployment-aws-ec2-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Nginx, PM2, Certbot walkthrough](./10-deployment-aws-ec2-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — ALB, ASG, CI/CD, hardening, ops](./10-deployment-aws-ec2-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — Resources, practice, interview Qs, revision](./10-deployment-aws-ec2-part4.md) | ✅ | ⬜ | | |
+| 11 | [AWS S3](./11-deployment-aws-s3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Buckets, classes, access control](./11-deployment-aws-s3-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Pre-signed URLs, multipart, CORS](./11-deployment-aws-s3-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — CloudFront, events, security, cost, interview](./11-deployment-aws-s3-part3.md) | ✅ | ⬜ | | |
 | 12 | [Cloudflare](./12-cloudflare.md) | ⬜ | ⬜ | | |
 | 13 | [Coding Round Practice](./13-coding-round-practice.md) | ⬜ | ⬜ | | |
 | 14 | [JS Logical Questions](./14-js-logical-interview-questions.md) | ⬜ | ⬜ | | |
