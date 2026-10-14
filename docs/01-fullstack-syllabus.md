@@ -273,7 +273,7 @@ Doc: [06-nodejs.md](./06-nodejs.md) · Written for Node.js 24 LTS (Node 26 becom
 
 ## 6. Databases
 
-Doc: [07-databases-and-apis.md](./07-databases-and-apis.md)
+Doc: [07-databases-and-apis.md](./07-databases-and-apis.md) · Written for PostgreSQL 18, MongoDB 8, Redis 8, Prisma 7 (verify current majors on the official docs)
 
 | Topic | Priority | Hrs | Resources | Where to find | How to learn | Doc |
 |-------|:--------:|:---:|-----------|---------------|--------------|:---:|
@@ -297,7 +297,7 @@ Doc: [07-databases-and-apis.md](./07-databases-and-apis.md)
 
 ## 7. APIs
 
-Doc: [07-databases-and-apis.md](./07-databases-and-apis.md)
+Doc: [07-databases-and-apis.md](./07-databases-and-apis.md) · REST/HTTP, pagination, idempotency, GraphQL, tRPC 11, gRPC, webhooks (Part 4)
 
 | Topic | Priority | Hrs | Resources | Where to find | How to learn | Doc |
 |-------|:--------:|:---:|-----------|---------------|--------------|:---:|

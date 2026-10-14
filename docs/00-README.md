@@ -68,8 +68,8 @@ flowchart LR
 | 04 | [04-react.md](./04-react.md) (hub) → [Part 1](./04-react-part1.md) · [Part 2](./04-react-part2.md) · [Part 3](./04-react-part3.md) · [Part 4](./04-react-part4.md) | Reconciliation, Fiber, hooks, state management, performance, React 19, machine coding |
 | 05 | [05-nextjs.md](./05-nextjs.md) (hub) → [Part 1](./05-nextjs-part1.md) · [Part 2](./05-nextjs-part2.md) · [Part 3](./05-nextjs-part3.md) · [Part 4](./05-nextjs-part4.md) | App Router, RSC, rendering strategies and PPR, both caching models, Server Actions, Proxy, auth, SEO, Web Vitals, deployment |
 | 06 | [06-nodejs.md](./06-nodejs.md) (hub) → [Part 1](./06-nodejs-part1.md) · [Part 2](./06-nodejs-part2.md) · [Part 3](./06-nodejs-part3.md) · [Part 4](./06-nodejs-part4.md) | Event loop phases, libuv, streams, workers, Express/Fastify/NestJS, auth, rate limiting, uploads, real-time, Redis caching, queues, observability, shutdown, security, testing, profiling |
-| 07 | [07-databases-and-apis.md](./07-databases-and-apis.md) | SQL, PostgreSQL, MongoDB, Redis, ORMs, REST/GraphQL/tRPC/gRPC, API design |
-| 08 | [08-engineering-practices.md](./08-engineering-practices.md) | SOLID, patterns, testing, Git, CI/CD, Docker, monorepos, security, monitoring |
+| 07 | [07-databases-and-apis.md](./07-databases-and-apis.md) (hub) → [Part 1](./07-databases-and-apis-part1.md) · [Part 2](./07-databases-and-apis-part2.md) · [Part 3](./07-databases-and-apis-part3.md) · [Part 4](./07-databases-and-apis-part4.md) · [Part 5](./07-databases-and-apis-part5.md) | SQL, PostgreSQL (indexes, isolation, MVCC), MongoDB, Redis, ORMs, REST/HTTP, pagination, idempotency, GraphQL, tRPC, gRPC, webhooks |
+| 08 | [08-engineering-practices.md](./08-engineering-practices.md) (hub) → [Part 1](./08-engineering-practices-part1.md) · [Part 2](./08-engineering-practices-part2.md) · [Part 3](./08-engineering-practices-part3.md) · [Part 4](./08-engineering-practices-part4.md) · [Part 5](./08-engineering-practices-part5.md) | SOLID, patterns, testing, Git, CI/CD, Docker, monorepos, OWASP 2025, SLOs, a11y as a gate |
 | 09 | [09-system-design.md](./09-system-design.md) | Framework, scaling building blocks, classic design problems |
 | 10 | [10-deployment-aws-ec2.md](./10-deployment-aws-ec2.md) | EC2, VPC, IAM, ALB, Auto Scaling, Nginx + PM2 + SSL walkthrough |
 | 11 | [11-deployment-aws-s3.md](./11-deployment-aws-s3.md) | Buckets, policies, pre-signed URLs, multipart, CloudFront, SDK v3 code |
@@ -158,8 +158,18 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 2 — Express/Fastify/Nest, auth, rate limits, uploads, real-time](./06-nodejs-part2.md) | ✅ | ⬜ | | |
 | ↳ | [Part 3 — Caching, queues, observability, shutdown, security, testing](./06-nodejs-part3.md) | ✅ | ⬜ | | |
 | ↳ | [Part 4 — Resources, practice, interview Qs, revision](./06-nodejs-part4.md) | ✅ | ⬜ | | |
-| 07 | [Databases & APIs](./07-databases-and-apis.md) | ⬜ | ⬜ | | |
-| 08 | [Engineering Practices](./08-engineering-practices.md) | ⬜ | ⬜ | | |
+| 07 | [Databases & APIs](./07-databases-and-apis.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — SQL, indexes, EXPLAIN, N+1, normalization](./07-databases-and-apis-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Transactions, MVCC, pooling, migrations, replication](./07-databases-and-apis-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — MongoDB, Redis, CAP, ORMs](./07-databases-and-apis-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — REST, HTTP, pagination, idempotency, GraphQL, tRPC, gRPC](./07-databases-and-apis-part4.md) | ✅ | ⬜ | | |
+| ↳ | [Part 5 — Resources, practice, interview Qs, revision](./07-databases-and-apis-part5.md) | ✅ | ⬜ | | |
+| 08 | [Engineering Practices](./08-engineering-practices.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — SOLID, patterns, clean code, hexagonal](./08-engineering-practices-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Testing (Vitest 5, MSW 3, Playwright)](./08-engineering-practices-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Git, CI/CD, Docker, monorepos](./08-engineering-practices-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — Security, observability, accessibility](./08-engineering-practices-part4.md) | ✅ | ⬜ | | |
+| ↳ | [Part 5 — Resources, practice, interview Qs, revision](./08-engineering-practices-part5.md) | ✅ | ⬜ | | |
 | 09 | [System Design](./09-system-design.md) | ⬜ | ⬜ | | |
 | 10 | [AWS EC2](./10-deployment-aws-ec2.md) | ⬜ | ⬜ | | |
 | 11 | [AWS S3](./11-deployment-aws-s3.md) | ⬜ | ⬜ | | |
