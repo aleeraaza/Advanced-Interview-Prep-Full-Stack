@@ -73,9 +73,9 @@ flowchart LR
 | 09 | [09-system-design.md](./09-system-design.md) (hub) → [Part 1](./09-system-design-part1.md) · [Part 2](./09-system-design-part2.md) · [Part 3](./09-system-design-part3.md) · [Part 4](./09-system-design-part4.md) · [Part 5](./09-system-design-part5.md) | Framework, estimates, cache/CDN/queues, classic designs, reliability |
 | 10 | [10-deployment-aws-ec2.md](./10-deployment-aws-ec2.md) (hub) → [Part 1](./10-deployment-aws-ec2-part1.md) · [Part 2](./10-deployment-aws-ec2-part2.md) · [Part 3](./10-deployment-aws-ec2-part3.md) · [Part 4](./10-deployment-aws-ec2-part4.md) | VPC, IAM, Nginx+PM2+Certbot lab, ALB, ASG, OIDC, SSM |
 | 11 | [11-deployment-aws-s3.md](./11-deployment-aws-s3.md) (hub) → [Part 1](./11-deployment-aws-s3-part1.md) · [Part 2](./11-deployment-aws-s3-part2.md) · [Part 3](./11-deployment-aws-s3-part3.md) | Buckets, policies, pre-signed URLs, multipart, CloudFront OAC, SDK v3 code |
-| 12 | [12-cloudflare.md](./12-cloudflare.md) | DNS, CDN, SSL modes, WAF, Workers, R2, KV, D1, Durable Objects, Tunnels |
-| 13 | [13-coding-round-practice.md](./13-coding-round-practice.md) | DSA patterns, templates, curated problems, machine-coding strategy |
-| 14 | [14-js-logical-interview-questions.md](./14-js-logical-interview-questions.md) | 100+ output-prediction puzzles + implementation questions |
+| 12 | [12-cloudflare.md](./12-cloudflare.md) (hub) → [Part 1](./12-cloudflare-part1.md) · [Part 2](./12-cloudflare-part2.md) · [Part 3](./12-cloudflare-part3.md) | DNS, orange cloud, TLS modes, origin lock, WAF, Workers, R2, KV/D1/DO, Tunnel |
+| 13 | [13-coding-round-practice.md](./13-coding-round-practice.md) (hub) → [Part 1](./13-coding-round-practice-part1.md) · [Part 2](./13-coding-round-practice-part2.md) · [Part 3](./13-coding-round-practice-part3.md) · [Part 4](./13-coding-round-practice-part4.md) | DSA patterns, JS Big-O, NeetCode 150 templates, machine-coding strategy |
+| 14 | [14-js-logical-interview-questions.md](./14-js-logical-interview-questions.md) (hub) → [Part 1](./14-js-logical-interview-questions-part1.md) · [Part 2](./14-js-logical-interview-questions-part2.md) · [Part 3](./14-js-logical-interview-questions-part3.md) | 108 output-prediction puzzles + debounce/`Promise.all`/LRU/emitter implementations |
 | 15 | [15-other-interview-questions.md](./15-other-interview-questions.md) | Behavioral/STAR, project deep-dive, incidents, negotiation, resume |
 | 16 | [16-study-plan.md](./16-study-plan.md) | 4 / 8 / 12-week plans with daily tasks and mock checkpoints |
 | 17 | [17-cheatsheets.md](./17-cheatsheets.md) | Compact revision sheets for everything |
@@ -185,9 +185,19 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 1 — Buckets, classes, access control](./11-deployment-aws-s3-part1.md) | ✅ | ⬜ | | |
 | ↳ | [Part 2 — Pre-signed URLs, multipart, CORS](./11-deployment-aws-s3-part2.md) | ✅ | ⬜ | | |
 | ↳ | [Part 3 — CloudFront, events, security, cost, interview](./11-deployment-aws-s3-part3.md) | ✅ | ⬜ | | |
-| 12 | [Cloudflare](./12-cloudflare.md) | ⬜ | ⬜ | | |
-| 13 | [Coding Round Practice](./13-coding-round-practice.md) | ⬜ | ⬜ | | |
-| 14 | [JS Logical Questions](./14-js-logical-interview-questions.md) | ⬜ | ⬜ | | |
+| 12 | [Cloudflare](./12-cloudflare.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — DNS, CDN, TLS modes](./12-cloudflare-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Origin lock, WAF, Rules](./12-cloudflare-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Workers, R2, Tunnel, interview](./12-cloudflare-part3.md) | ✅ | ⬜ | | |
+| 13 | [Coding Round Practice](./13-coding-round-practice.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Format, Big-O, arrays, pointers, windows](./13-coding-round-practice-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Stack, binary search, lists, trees, heap](./13-coding-round-practice-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Graphs, DP, greedy, tries](./13-coding-round-practice-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — Machine coding, mocks, interview](./13-coding-round-practice-part4.md) | ✅ | ⬜ | | |
+| 14 | [JS Logical Questions](./14-js-logical-interview-questions.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Closures, this, prototypes](./14-js-logical-interview-questions-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Event loop, coercion, oddballs](./14-js-logical-interview-questions-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Implementations, interview](./14-js-logical-interview-questions-part3.md) | ✅ | ⬜ | | |
 | 15 | [Other Interview Questions](./15-other-interview-questions.md) | ⬜ | ⬜ | | |
 | 16 | [Study Plan](./16-study-plan.md) | ⬜ | ⬜ | | |
 | 17 | [Cheatsheets](./17-cheatsheets.md) | ⬜ | ⬜ | | |
