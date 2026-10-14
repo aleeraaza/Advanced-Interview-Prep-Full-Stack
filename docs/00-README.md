@@ -67,7 +67,7 @@ flowchart LR
 | 03 | [03-typescript.md](./03-typescript.md) (hub) → [Part 1](./03-typescript-part1.md) · [Part 2](./03-typescript-part2.md) · [Part 3](./03-typescript-part3.md) | Type system, generics, conditional/mapped types, narrowing, tsconfig, Zod |
 | 04 | [04-react.md](./04-react.md) (hub) → [Part 1](./04-react-part1.md) · [Part 2](./04-react-part2.md) · [Part 3](./04-react-part3.md) · [Part 4](./04-react-part4.md) | Reconciliation, Fiber, hooks, state management, performance, React 19, machine coding |
 | 05 | [05-nextjs.md](./05-nextjs.md) (hub) → [Part 1](./05-nextjs-part1.md) · [Part 2](./05-nextjs-part2.md) · [Part 3](./05-nextjs-part3.md) · [Part 4](./05-nextjs-part4.md) | App Router, RSC, rendering strategies and PPR, both caching models, Server Actions, Proxy, auth, SEO, Web Vitals, deployment |
-| 06 | [06-nodejs.md](./06-nodejs.md) | Event loop phases, libuv, streams, workers, auth, queues, observability, security |
+| 06 | [06-nodejs.md](./06-nodejs.md) (hub) → [Part 1](./06-nodejs-part1.md) · [Part 2](./06-nodejs-part2.md) · [Part 3](./06-nodejs-part3.md) · [Part 4](./06-nodejs-part4.md) | Event loop phases, libuv, streams, workers, Express/Fastify/NestJS, auth, rate limiting, uploads, real-time, Redis caching, queues, observability, shutdown, security, testing, profiling |
 | 07 | [07-databases-and-apis.md](./07-databases-and-apis.md) | SQL, PostgreSQL, MongoDB, Redis, ORMs, REST/GraphQL/tRPC/gRPC, API design |
 | 08 | [08-engineering-practices.md](./08-engineering-practices.md) | SOLID, patterns, testing, Git, CI/CD, Docker, monorepos, security, monitoring |
 | 09 | [09-system-design.md](./09-system-design.md) | Framework, scaling building blocks, classic design problems |
@@ -153,7 +153,11 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 2 — Caching, Server Actions, Route Handlers, Proxy, auth](./05-nextjs-part2.md) | ✅ | ⬜ | | |
 | ↳ | [Part 3 — Optimization, SEO, Web Vitals, errors, deployment](./05-nextjs-part3.md) | ✅ | ⬜ | | |
 | ↳ | [Part 4 — Resources, practice, interview Qs, revision](./05-nextjs-part4.md) | ✅ | ⬜ | | |
-| 06 | [Node.js](./06-nodejs.md) | ⬜ | ⬜ | | |
+| 06 | [Node.js](./06-nodejs.md) | ✅ | ⬜ | | |
+| ↳ | [Part 1 — Runtime, event loop, streams, concurrency](./06-nodejs-part1.md) | ✅ | ⬜ | | |
+| ↳ | [Part 2 — Express/Fastify/Nest, auth, rate limits, uploads, real-time](./06-nodejs-part2.md) | ✅ | ⬜ | | |
+| ↳ | [Part 3 — Caching, queues, observability, shutdown, security, testing](./06-nodejs-part3.md) | ✅ | ⬜ | | |
+| ↳ | [Part 4 — Resources, practice, interview Qs, revision](./06-nodejs-part4.md) | ✅ | ⬜ | | |
 | 07 | [Databases & APIs](./07-databases-and-apis.md) | ⬜ | ⬜ | | |
 | 08 | [Engineering Practices](./08-engineering-practices.md) | ⬜ | ⬜ | | |
 | 09 | [System Design](./09-system-design.md) | ⬜ | ⬜ | | |

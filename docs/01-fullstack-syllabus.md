@@ -242,7 +242,7 @@ Doc: [05-nextjs.md](./05-nextjs.md) · Applies to the App Router on Next.js 16.4
 
 ## 5. Node.js
 
-Doc: [06-nodejs.md](./06-nodejs.md) · Applies to the current Node.js LTS (verify on nodejs.org)
+Doc: [06-nodejs.md](./06-nodejs.md) · Written for Node.js 24 LTS (Node 26 becomes Active LTS on 2026-10-28; verify on nodejs.org)
 
 | Topic | Priority | Hrs | Resources | Where to find | How to learn | Doc |
 |-------|:--------:|:---:|-----------|---------------|--------------|:---:|
