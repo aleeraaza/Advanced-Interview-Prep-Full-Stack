@@ -18,7 +18,10 @@
 - Study order → [00-README](./00-README.md#recommended-study-order)
 - Ready checklist → [00-README](./00-README.md#what-ready-means)
 - Last-48-hour sheets → [17-cheatsheets](./17-cheatsheets.md)
+- **2 days** → [18-prep-2-days.md](./18-prep-2-days.md)
+- **1 week** → [19-prep-1-week.md](./19-prep-1-week.md)
+- **2 weeks** → [20-prep-2-weeks.md](./20-prep-2-weeks.md)
 
 ## Next Steps
 
-➡️ Start with [Part 1](./16-study-plan-part1.md) even if you already know you want 12 weeks — the daily template and 4-week table are the compression valve. Then [17-cheatsheets.md](./17-cheatsheets.md).
+If the loop is in **≤ 2 weeks**, do not start Part 1’s 28-day table — open [18](./18-prep-2-days.md), [19](./19-prep-1-week.md), or [20](./20-prep-2-weeks.md). Otherwise start with [Part 1](./16-study-plan-part1.md) (daily template + 4-week). Recitation: [17-cheatsheets.md](./17-cheatsheets.md).

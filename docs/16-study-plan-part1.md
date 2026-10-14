@@ -59,8 +59,11 @@ This file is a **calendar**, not more theory. You already have the syllabus ([01
 
 | Hours you actually have | Plan | Also |
 |-------------------------|------|------|
-| **< 40** | Not a fourth plan — [17](./17-cheatsheets.md) + 15 DSA mediums + 4 STARs + event-loop/closure from [14](./14-js-logical-interview-questions.md). See [Part 3 emergency](./16-study-plan-part3.md#12-less-than-two-weeks). | Sleep |
-| **40–180** | **4-week** (this part). Compress further if < 2 weeks. | 2 mocks |
+| **2 days** | [18-prep-2-days.md](./18-prep-2-days.md) | Sleep |
+| **1 week** | [19-prep-1-week.md](./19-prep-1-week.md) | 2 mocks |
+| **2 weeks** | [20-prep-2-weeks.md](./20-prep-2-weeks.md) | 2 mocks |
+| **< 40** (not a 2-day block) | [17](./17-cheatsheets.md) + 15 DSA mediums + 4 STARs + event-loop/closure from [14](./14-js-logical-interview-questions.md). | Sleep |
+| **40–180** | **4-week** (this part). If that 40–180 is actually ≤14 days, use [20](./20-prep-2-weeks.md) instead. | 2 mocks |
 | **180–350** | **8-week** | 4+ mocks from week 3 |
 | **350+** | **12-week** | Weekly mocks from week 3; optional portfolio slice |
 

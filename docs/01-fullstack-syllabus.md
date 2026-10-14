@@ -634,6 +634,9 @@ flowchart TD
 
 | Budget | Focus | Skip |
 |--------|-------|------|
+| **2 days / ~14 h** | Follow [18-prep-2-days.md](./18-prep-2-days.md) (or [17 last 48 h](./17-cheatsheets-part3.md#19-last-48-hours) if you already studied) | Everything not on that checklist |
+| **1 week / ~42 h** | Follow [19-prep-1-week.md](./19-prep-1-week.md) | AWS/CF labs, DP, 08 Medium |
+| **2 weeks / ~70–80 h** | Follow [20-prep-2-weeks.md](./20-prep-2-weeks.md) | DP deep, billed cloud, portfolio rewrite |
 | **< 40 h** | [17 Cheatsheets](./17-cheatsheets.md); High rows from sections 1, 3, 5; event-loop + closure puzzles from [14](./14-js-logical-interview-questions.md); 15 DSA mediums (arrays, two pointers, sliding window, trees); 4 STAR stories | AWS/Cloudflare depth, DP, Low rows |
 | **40–180 h** | **High** rows in sections 1–8, 17, 18 and 20; NeetCode 150 core sections; 3 system design problems (rate limiter, URL shortener, chat); 2 mock interviews | Medium/Low rows in AWS, Cloudflare, practices |
 | **180–350 h** | All **High** rows (≈ 303 h) plus the Medium rows in React, Next.js, Node.js and system design; full NeetCode 150; all system design problems; 4+ mocks | Most Low rows |
@@ -648,5 +651,5 @@ flowchart TD
 ## Next Steps
 
 - Mark your starting confidence for each section in the [Progress Tracker](./00-README.md#progress-tracker).
-- Pick a schedule from [16-study-plan.md](./16-study-plan.md).
+- Pick a schedule: [18](./18-prep-2-days.md) (2 days), [19](./19-prep-1-week.md) (1 week), [20](./20-prep-2-weeks.md) (2 weeks), or [16](./16-study-plan.md) (4/8/12 weeks).
 - ➡️ Continue to [02-javascript.md](./02-javascript.md)

@@ -16,8 +16,8 @@
 
 - Syllabus hours / triage → [01](./01-fullstack-syllabus.md)
 - Daily template → [16 Part 1](./16-study-plan-part1.md#5-daily-template)
-- Emergency < 2 weeks → [16 Part 3](./16-study-plan-part3.md#15-less-than-two-weeks)
+- **2 days / 1 week / 2 weeks** → [18](./18-prep-2-days.md) · [19](./19-prep-1-week.md) · [20](./20-prep-2-weeks.md)
 
 ## Next Steps
 
-➡️ Start with [Part 1](./17-cheatsheets-part1.md). The numbered set **00–17 is complete**.
+➡️ Start with [Part 1](./17-cheatsheets-part1.md) if you are **reciting**. If you still need a calendar, open [18](./18-prep-2-days.md), [19](./19-prep-1-week.md), or [20](./20-prep-2-weeks.md).

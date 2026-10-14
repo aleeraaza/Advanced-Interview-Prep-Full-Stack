@@ -79,6 +79,9 @@ flowchart LR
 | 15 | [15-other-interview-questions.md](./15-other-interview-questions.md) (hub) → [Part 1](./15-other-interview-questions-part1.md) · [Part 2](./15-other-interview-questions-part2.md) · [Part 3](./15-other-interview-questions-part3.md) | 90s pitch, STAR bank, deep-dive, incidents, resume, negotiation |
 | 16 | [16-study-plan.md](./16-study-plan.md) (hub) → [Part 1](./16-study-plan-part1.md) · [Part 2](./16-study-plan-part2.md) · [Part 3](./16-study-plan-part3.md) | 4 / 8 / 12-week calendars, daily template, mocks, <2-week emergency |
 | 17 | [17-cheatsheets.md](./17-cheatsheets.md) (hub) → [Part 1](./17-cheatsheets-part1.md) · [Part 2](./17-cheatsheets-part2.md) · [Part 3](./17-cheatsheets-part3.md) | Last-48-hour recitation: JS/TS/React/Next, Node/data/design, AWS/CF/DSA/STAR |
+| 18 | [18-prep-2-days.md](./18-prep-2-days.md) | Step-by-step **2-day** calendar (~14 h), hour blocks |
+| 19 | [19-prep-1-week.md](./19-prep-1-week.md) | Step-by-step **7-day** calendar (~42 h) |
+| 20 | [20-prep-2-weeks.md](./20-prep-2-weeks.md) | Step-by-step **14-day** calendar (~70–80 h) |
 
 > Files that grow too long are split into parts (e.g. `02-javascript-part1.md`, `02-javascript-part2.md`). When that happens, the parts are listed under the parent entry in the [Progress Tracker](#progress-tracker).
 
@@ -121,7 +124,16 @@ flowchart TD
 - **14 JS Logical Questions** — 5 output-prediction questions per day while studying 02.
 - **15 Behavioral** — draft one STAR story per week from your real projects.
 
-**If your interview is in < 2 weeks**, use the 4-week plan in [16-study-plan.md](./16-study-plan.md) compressed, prioritizing High-priority rows from [01-fullstack-syllabus.md](./01-fullstack-syllabus.md), then [17-cheatsheets.md](./17-cheatsheets.md).
+**If the loop is close**, pick a short calendar and follow it in order (do not mix with 4/8/12-week):
+
+| Time left | File |
+|-----------|------|
+| **2 days** | [18-prep-2-days.md](./18-prep-2-days.md) |
+| **1 week** | [19-prep-1-week.md](./19-prep-1-week.md) |
+| **2 weeks** | [20-prep-2-weeks.md](./20-prep-2-weeks.md) |
+| **4 / 8 / 12 weeks** | [16-study-plan.md](./16-study-plan.md) |
+
+Already studied 02–15 and only need recitation? Use [17-cheatsheets.md](./17-cheatsheets.md) (last 48 hours), not 18.
 
 ---
 
@@ -210,6 +222,9 @@ Two trackers: one for **authoring** (is the doc written?) and one for **your lea
 | ↳ | [Part 1 — JS, TS, React, Next](./17-cheatsheets-part1.md) | ✅ | ⬜ | | |
 | ↳ | [Part 2 — Node, data, practices, design](./17-cheatsheets-part2.md) | ✅ | ⬜ | | |
 | ↳ | [Part 3 — Cloud, DSA, behavioral, 48 h](./17-cheatsheets-part3.md) | ✅ | ⬜ | | |
+| 18 | [Prep in 2 days](./18-prep-2-days.md) | ✅ | ⬜ | | |
+| 19 | [Prep in 1 week](./19-prep-1-week.md) | ✅ | ⬜ | | |
+| 20 | [Prep in 2 weeks](./20-prep-2-weeks.md) | ✅ | ⬜ | | |
 
 **Confidence scale:**
 

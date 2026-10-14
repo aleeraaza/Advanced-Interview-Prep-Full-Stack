@@ -158,7 +158,10 @@ Canonical: [16](./16-study-plan.md). Hours: [01](./01-fullstack-syllabus.md#time
 
 | Hours | Do |
 |-------|----|
-| < 40 | **This file** + 15 DSA mediums + 4 STAR + [14](./14-js-logical-interview-questions.md) loop/closure |
+| **2 days** (~14 h) | [18](./18-prep-2-days.md) — or **this file’s** [last 48 h](#19-last-48-hours) if 02–15 are already done |
+| **1 week** (~42 h) | [19](./19-prep-1-week.md) |
+| **2 weeks** (~70–80 h) | [20](./20-prep-2-weeks.md) |
+| < 40 (other) | **This file** + 15 DSA mediums + 4 STAR + [14](./14-js-logical-interview-questions.md) loop/closure |
 | 40–180 | [4-week](./16-study-plan-part1.md) |
 | 180–350 | [8-week](./16-study-plan-part2.md) |
 | 350+ | [12-week](./16-study-plan-part3.md) |

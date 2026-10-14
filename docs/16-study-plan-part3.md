@@ -111,7 +111,9 @@ Coding **or** machine, plus design **or** behavioral. Same day rest after. Log t
 
 ## 15. Less Than Two Weeks
 
-From [00](./00-README.md#recommended-study-order): compress **4-week High**, then [17](./17-cheatsheets.md). **< 40 h** triage in [01](./01-fullstack-syllabus.md#priority-triage-if-you-only-have-x-hours).
+**Follow the dedicated calendars** (checkboxes, hour blocks): [18 — 2 days](./18-prep-2-days.md) · [19 — 1 week](./19-prep-1-week.md) · [20 — 2 weeks](./20-prep-2-weeks.md). Do not mix those with the 12-week table above.
+
+From [00](./00-README.md#recommended-study-order): compress **4-week High**, then [17](./17-cheatsheets.md). **< 40 h** triage in [01](./01-fullstack-syllabus.md#priority-triage-if-you-only-have-x-hours). Sketch kept here so 16 still reads if you only have this part open:
 
 | Day | Hours | Do |
 |-----|:-----:|----|
